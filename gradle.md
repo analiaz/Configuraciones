@@ -31,3 +31,5 @@ cada vez que se modifica el archivo hay que reconstruirlo.
 
 Si en algun momento quiero usar una clase de otro paquete lo que se debe hacer es comprimir el paquete que la contiene, copiar 
 y pegar en el sourceSets (en este caso es 'src') y utilizarlo como lo indique java con sus import package y demas.
+
+Para ejecutar un programa dede la consola con gradle se usa el comando `gradle run`, para limpiar se usa `gradle clean`
