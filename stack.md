@@ -7,7 +7,8 @@
 	* `new-template`: tiene una carpeta `app/` y una carpeta `src/`
 3. En .cabal se deben completar los campos vacios entrando en cada libreria que usea y estrayendo de ahi los datos (ej. 
 licencia, version, etc)
-4. Para construir el proyecto se usa `stack build`
+4. Si no se tiene instalado ghc se debe ejecutar el comando stack setup sino directamente se usa `stack build` (el cual no 
+tiene que dar error).
 
  
 - Para mas informacion de stack y haskell en general ["este link"] (http://dev.stephendiehl.com/hask/).
