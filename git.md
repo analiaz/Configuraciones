@@ -14,3 +14,14 @@ Segundo se lo sube a github con el comando
 #Si el repositorio ya existe 
 Si se hicieron nuevos cambios en el archivo y se quieren subir para tener todo actualizado, luego de hacer commit solo se debe usar
 	`git push -u origin master`
+
+----------------------------------------------------------------------------------------------------------------------
+
+#
+
+#actualizacion de un archivo con muchos commits,
+* sin querer que se vean los cambios y master que pase a apuntar directamente al ultimo commit  
+	`git rebase -p --all`
+*mostrando los cambioso
+
+	`git merge`
