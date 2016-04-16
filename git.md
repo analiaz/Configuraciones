@@ -7,10 +7,13 @@
 # Para que se guarde correctamente los cambios 
 	`git commit -m "se agrego tal cosa"`
 # Subir el repositorio a github
-Primero se debe crear un repositorio en github y obtener su URL, luego se ejecuta en consola el comando 
+
+1.Se debe crear un repositorio en github y obtener su URL, luego se ejecuta en consola el comando 
 	`git remote add origin <URL>` 
-Segundo se lo sube a github  
+
+2.Se lo sube a github  
 	`git push -u origin master`
+
 #Para ver los repositorio configurados en el sistema
 	`git remote -v`
 #Para acceder a informacion de repositorios remotos
