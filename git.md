@@ -9,22 +9,16 @@
 # Subir el repositorio a github
 Primero se debe crear un repositorio en github y obtener su URL, luego se ejecuta en consola el comando 
 	`git remote add origin <URL>` 
-Segundo se lo sube a github con el comando 
+Segundo se lo sube a github  
 	`git push -u origin master`
-#Si el repositorio ya existe 
-Si se hicieron nuevos cambios en el archivo y se quieren subir para tener todo actualizado, luego de hacer commit solo se debe usar
-	`git push -u origin master`
-
-#ver los repositorio configurados en el sistema
+#Para ver los repositorio configurados en el sistema
 	`git remote -v`
-
-#acceder a informacion de repositorios remotos
+#Para acceder a informacion de repositorios remotos
 	`git fetch`
-
-#actualizacion de un archivo con muchos commits:
-
+#Para la actualizacion de un archivo con muchos commits:
 * sin querer que se vean los cambios y master que pase a apuntar directamente al ultimo commit  
 	`git rebase -p nombreDeOtroRepositorio/master`
-
 * mostrando los cambioso
 	`git merge`
+# si se quiere desviar archivos que no interesan subir a gitHub se utiliza
+	`echo 'nombreArchivo o nombre directorio' >> .gitgnore`
